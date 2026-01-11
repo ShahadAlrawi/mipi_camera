@@ -1,0 +1,55 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.539071",
+   "Default View_TopLeft":"-173,-115",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port csirxss_s_axi -pg 1 -lvl 0 -x -10 -y 520 -defaultsOSRD
+preplace port m_axi_mm_video -pg 1 -lvl 5 -x 1440 -y 340 -defaultsOSRD
+preplace port mipi_phy_if -pg 1 -lvl 0 -x -10 -y 500 -defaultsOSRD
+preplace port s_axi_ctrl -pg 1 -lvl 0 -x -10 -y 300 -defaultsOSRD
+preplace port s_axi_ctrl_frmbuf -pg 1 -lvl 0 -x -10 -y 450 -defaultsOSRD
+preplace port port-id_aclk -pg 1 -lvl 0 -x -10 -y 230 -defaultsOSRD
+preplace port port-id_aresetn -pg 1 -lvl 0 -x -10 -y 210 -defaultsOSRD
+preplace port port-id_clkoutphy_out -pg 1 -lvl 5 -x 1440 -y 550 -defaultsOSRD
+preplace port port-id_csirxss_csi_irq -pg 1 -lvl 5 -x 1440 -y 610 -defaultsOSRD
+preplace port port-id_dphy_clk_200M -pg 1 -lvl 0 -x -10 -y 580 -defaultsOSRD
+preplace port port-id_interrupt -pg 1 -lvl 5 -x 1440 -y 360 -defaultsOSRD
+preplace port port-id_lite_aclk -pg 1 -lvl 0 -x -10 -y 540 -defaultsOSRD
+preplace port port-id_lite_aresetn -pg 1 -lvl 0 -x -10 -y 560 -defaultsOSRD
+preplace port port-id_pll_lock_out -pg 1 -lvl 5 -x 1440 -y 590 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace inst axis_data_fifo_cap -pg 1 -lvl 1 -x 160 -y 210 -defaultsOSRD
+preplace inst axis_subset_converter_0 -pg 1 -lvl 2 -x 450 -y 220 -defaultsOSRD
+preplace inst v_frmbuf_wr_0 -pg 1 -lvl 4 -x 1230 -y 350 -defaultsOSRD
+preplace inst v_proc_ss_scalar -pg 1 -lvl 3 -x 830 -y 240 -defaultsOSRD
+preplace inst mipi_csi2_rx_subsyst_0 -pg 1 -lvl 4 -x 1230 -y 560 -defaultsOSRD
+preplace inst reset_scalar_bit_2 -pg 1 -lvl 2 -x 450 -y 60 -defaultsOSRD
+preplace inst reset_framewr_bit_0 -pg 1 -lvl 3 -x 830 -y 380 -defaultsOSRD
+preplace netloc Din_1 1 0 3 NJ 60 290 140 610J
+preplace netloc clk_wiz_0_clk_100M 1 0 4 NJ 540 NJ 540 NJ 540 NJ
+preplace netloc clk_wiz_0_clk_200M 1 0 4 NJ 580 NJ 580 NJ 580 NJ
+preplace netloc clk_wiz_0_clk_300M 1 0 4 10 290 290 310 620 130 1030
+preplace netloc mipi_csi2_rx_subsyst_0_clkoutphy_out 1 4 1 NJ 550
+preplace netloc mipi_csi2_rx_subsyst_0_csirxss_csi_irq 1 4 1 NJ 610
+preplace netloc mipi_csi2_rx_subsyst_0_pll_lock_out 1 4 1 NJ 590
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 0 4 20 310 280 320 650J 140 1010J
+preplace netloc proc_sys_reset_2_peripheral_aresetn 1 0 4 NJ 560 NJ 560 NJ 560 NJ
+preplace netloc reset_framewr_bit_0_Dout 1 3 1 NJ 380
+preplace netloc reset_scalar_bit_2_Dout 1 2 1 640J 60n
+preplace netloc v_frmbuf_wr_1_interrupt 1 4 1 NJ 360
+preplace netloc Conn1 1 0 3 NJ 300 NJ 300 630J
+preplace netloc axi_interconnect_0_M11_AXI 1 0 4 30J 120 NJ 120 NJ 120 1040J
+preplace netloc axis_data_fifo_0_M_AXIS 1 1 1 290 200n
+preplace netloc axis_subset_converter_0_M_AXIS 1 2 1 N 220
+preplace netloc csirxss_s_axi_1 1 0 4 NJ 520 NJ 520 NJ 520 NJ
+preplace netloc mipi_csi2_rx_subsyst_0_video_out 1 0 5 40 440 NJ 440 NJ 440 NJ 440 1420
+preplace netloc mipi_phy_if_1 1 0 4 NJ 500 NJ 500 NJ 500 NJ
+preplace netloc v_frmbuf_wr_1_m_axi_mm_video 1 4 1 NJ 340
+preplace netloc v_proc_ss_scalar_m_axis 1 3 1 1020 230n
+levelinfo -pg 1 -10 160 450 830 1230 1440
+pagesize -pg 1 -db -bbox -sgen -190 0 1620 680
+"
+}
+0
